@@ -1,0 +1,207 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*Navigation panel*/
+
+.main_nav{
+  background:black;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top: 0;
+  width: 100%;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul{
+  white-space:nowrap;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: right;
+  margin-right: 120px;
+  margin-top: -6px;
+}
+nav li{
+  width: 20%;
+  display: inline-block;
+  font-size: 14px;
+}
+nav li a{
+
+  color: whitesmoke;
+  text-decoration: blink;
+  font-display: block;
+  font-weight: bold;
+  font-style: normal;
+}
+nav li a:hover{
+  color: darkcyan;
+ 
+
+ }
+
+
+ /*footer*/
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+/*Hme Page*/
+
+.homeimg{
+  width: 100%;
+  height: 700px;
+  position: center;
+  background-size: cover;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  
+}
+.bodyimg{
+  width: 100%;
+  background:url(img/home.jpg);
+  position: center;
+  background-size: cover;
+  height: 100%;
+}
+.welcome{
+  font-weight: bold;
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 50px;
+  color: darkcyan;
+  font-size: 70px;
+  text-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-text{
+  position: absolute;
+  padding-top: 230px;
+  padding-left: 50px;
+  color: whitesmoke;
+  font-style: Arial;
+  font-size: 15px;
+
+}
+
+/*About Us Page*/
+.about-us{
+  padding-top: 180px;
+  width: 50%;
+  height: 30%;
+  padding-right: 40px;
+}
+.aboutus-text{
+  padding-top: 300px;
+  padding-left: 50px;
+  position: absolute;
+}
+.AboutUs{
+  position: absolute;
+  padding-top: 230px;
+  padding-left: 50px;
+  font-weight: bold;
+  color: darkcyan;
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.botton{
+  position: absolute;
+  padding-top: 350px;
+  padding-left: 50px;
+}
+
+/*contact us*/
+
+.contact-table{
+  padding-top: 150px;
+  padding-left: 180px;
+}
+.contact-table2{
+  padding-top: 40px;
+  padding-right: 250px;: 
+
+}
+.contactimg{
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+
+.ContactUs{
+  color: darkcyan;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contacttext{
+  font-size: 10px;
+  color: whitesmoke;
+}
+
+.mailcolor1{
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.mailcolor2{
+  background-color: darkcyan;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.mailcolor3{
+  background-color: darkcyan;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.mailcolor4{
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.mailcolor1:hover{
+  transform: scale(0.8);
+  lighting-color: white;opacity: 70%;
+}
+.mailcolor2:hover{
+  transform: scale(0.8);
+  lighting-color: white;opacity: 70%;
+}
+.mailcolor3:hover{
+  transform: scale(0.8);
+  lighting-color: white;opacity: 70%;
+}
+.mailcolor4:hover{
+  transform: scale(0.8);
+  lighting-color: white;opacity: 70%;
+}
+
+/*Product*/
+.product-table{
+  padding-top: 140px;
+  padding-left: 140px;
+}
+.productimg{
+  width: 200px;
+  height: 200px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+ 
+}
+.productimg:hover{
+  transform: scale(1.3);
+}
